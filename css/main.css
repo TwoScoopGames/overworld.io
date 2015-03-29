@@ -1,0 +1,51 @@
+body{
+
+  font-family: "helvetica";
+  background: #AB4432;
+  color: white;
+}
+
+.page{
+  text-align: center;
+}
+
+.logo{
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+#mc_embed_signup{
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  clear:left; 
+  font:14px 
+  Helvetica,Arial,sans-serif; 
+}
+
+.email{
+  margin: 10px;
+  padding: 5px;
+  height: 30px;
+  font-size: 15px;
+  border: 0px;
+}
+
+.button{
+  border-radius: 0px;
+  border: 0px;
+  color: #AB4432;
+  padding: 10px 15px;
+  font-size: 15px;
+  background: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.button:hover{
+  color: white;
+  background: #AB4432;
+  border: 2px solid white;
+}

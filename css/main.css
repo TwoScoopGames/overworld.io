@@ -6,14 +6,17 @@ body{
 }
 
 .page{
+  margin-top: 50px;
   text-align: center;
 }
 
 .logo{
   margin: 0 auto;
   position: relative;
-  width: 200px;
-  height: 200px;
+}
+
+a{
+  color: white;
 }
 
 #mc_embed_signup{

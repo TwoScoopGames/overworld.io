@@ -1,5 +1,4 @@
 body{
-
   font-family: "helvetica";
   background: #AB4432;
   color: white;
@@ -13,6 +12,8 @@ body{
 .logo{
   margin: 0 auto;
   position: relative;
+  width: 250px;
+  margin-bottom: 50px;
 }
 
 a{
@@ -23,9 +24,9 @@ a{
   width: 400px;
   margin: 0 auto;
   position: relative;
-  clear:left; 
-  font:14px 
-  Helvetica,Arial,sans-serif; 
+  clear:left;
+  font:14px
+  Helvetica,Arial,sans-serif;
 }
 
 .email{

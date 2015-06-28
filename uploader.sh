@@ -1,1 +1,1 @@
-rsync -avP --delete ./ glasses:/ivy/overworld/
+rsync -avP --delete ./ ivy:/ivy/overworld/

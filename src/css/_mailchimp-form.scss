@@ -1,0 +1,34 @@
+#mc_embed_signup{
+  color: black;
+  margin: 0 auto;
+  position: relative;
+  clear:left;
+  font:14px Helvetica, Arial, sans-serif;
+
+  .email{
+    margin: 10px;
+    padding: 5px;
+    height: 33px;
+    font-size: 15px;
+    border: 2px solid $red;
+  }
+
+  .button{
+    border-radius: 0px;
+    border: 0px;
+    background: $red !important;
+    color: white;
+    padding: 8px 15px;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+
+  .button:hover{
+    color: $red;
+    background: white;
+    border: 2px solid white;
+  }
+
+}

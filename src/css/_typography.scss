@@ -1,0 +1,16 @@
+@import "font-awesome/font-awesome";
+
+$normal-font-size: 1em;
+$normal-font-line-height: $normal-font-size * 1.5;
+
+html{
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-feature-settings: "kern", "liga", "pnum";
+  font-size: $normal-font-size;
+  line-height: $normal-font-line-height;
+}
+
+
+.center-inside{
+  text-align: center;
+}

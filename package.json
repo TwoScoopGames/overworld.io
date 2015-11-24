@@ -1,0 +1,20 @@
+{
+  "name": "overworld.io",
+  "version": "0.0.0",
+  "description": "Overworld.io",
+  "main": "index.js",
+  "scripts": {
+    "build": "unfold site.json",
+    "upload": "sh upload.sh"
+  },
+  "author": "Two Scoop Games <alex@twoscoopgames.com> (http://twoscoopgames.com/)",
+  "license": "proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TwoScoopGames/overworld.io"
+  },
+  "dependencies": {
+    "unfold": "^0.3.2",
+    "bourbon": "^4.2.6"
+  }
+}

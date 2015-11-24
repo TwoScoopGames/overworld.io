@@ -10,14 +10,19 @@
   </head>
   <body>
 <div class="page">
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".video").fitVids();
+  });
+</script>
 
-  <img class="logo" src="img/overworld_logo.svg"/>
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/8W-FlMY6VVI" frameborder="0" allowfullscreen></iframe>
+</div>
 
   <div id="mc_embed_signup">
-
-    <h3>Coming soon!</h3>
-    <p>Build games on the web using HTML5 canvas / JavaScript and export for multiple platforms all while never leaving your browser.</p>
-
     <form action="//twoscoopgames.us8.list-manage.com/subscribe/post?u=754c46f26308f0b77e3d5de00&amp;id=7a43e3cac0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
         <label for="mce-EMAIL">

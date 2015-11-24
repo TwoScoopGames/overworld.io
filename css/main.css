@@ -1,6 +1,6 @@
 body{
   font-family: "helvetica";
-  background: #AB4432;
+  background: #a6574e;
   color: white;
 }
 
@@ -56,4 +56,10 @@ a{
   color: white;
   background: #AB4432;
   border: 2px solid white;
+}
+
+.video{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
 }
